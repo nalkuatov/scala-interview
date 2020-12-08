@@ -32,6 +32,7 @@ lazy val `circular-pursuit` = project
     libraryDependencies ++= Seq(
       "org.typelevel"     %% "cats-core"           % "2.1.1",
       "org.typelevel"     %% "cats-effect"         % "2.1.3",
+      "org.scalacheck"    %% "scalacheck"          % "1.15.1" % Test
     )
   )
   .settings(commonSettings)
